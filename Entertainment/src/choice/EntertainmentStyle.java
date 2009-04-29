@@ -19,7 +19,7 @@ public class EntertainmentStyle extends Applet implements ItemListener {
 	public int vedioOnDemand=0;
 	
 	private static final long serialVersionUID = 1L;
-	String entertainmentStyle[]={"文本聊天\n","视频点播\n"};
+	String entertainmentStyle[]={"文本聊天","视频点播","音频点播"};
 	
 	/*
 	 * 初始化图像，设置大小，按钮等
