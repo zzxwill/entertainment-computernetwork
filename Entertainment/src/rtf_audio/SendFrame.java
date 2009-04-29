@@ -38,7 +38,7 @@ public class SendFrame extends JFrame{
 	    this.setLayout(null);
 	    this.setBackground(Color.DARK_GRAY);
 	    this.getContentPane().setLayout(null);
-	    fileTypeLabel= new JLabel("请选择文件类型");
+	    fileTypeLabel= new JLabel("");
 	    fileTypeLabel.setFont(new Font("", Font.BOLD, 20));
 	    fileTypeLabel.setPreferredSize(new Dimension(200,500));
 	    fileTypeLabel.setBounds(100, 50, 200, 50);
@@ -46,16 +46,18 @@ public class SendFrame extends JFrame{
 	    movFileRB = new JRadioButton(".mov文件");
 	    movFileRB.setPreferredSize(new Dimension(200,30));
 	    movFileRB.setBounds(100, 110, 200, 30);
-	    getContentPane().add(movFileRB);
-	    auFileRB = new JRadioButton(".au或.wav文件");
+//	    getContentPane().add(movFileRB);
+	    auFileRB = new JRadioButton(".wav文件");
 	    auFileRB.setPreferredSize(new Dimension(200,30));
 	    auFileRB.setBounds(100, 150, 200, 30);
 	    getContentPane().add(auFileRB);
+	    auFileRB.setSelected(true);
+	    
 	    mpegFileRB =new JRadioButton(".mepg或.mpg文件");
 	    mpegFileRB.setPreferredSize(new Dimension(200,30));
 	    mpegFileRB.setBounds(100, 190, 200, 30);
 	    mpegFileRB.setSelected(true);
-	    getContentPane().add(mpegFileRB);
+//	    getContentPane().add(mpegFileRB);
 	    bGroup =new ButtonGroup();
 	    bGroup.add(movFileRB);
 	    bGroup.add(auFileRB);
