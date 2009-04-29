@@ -54,7 +54,7 @@ public class EntertainmentStyle extends Applet implements ItemListener {
 			netChatFlag=1;
 			try
 			{
-				p =Runtime.getRuntime().exec("C:/Documents and Settings/周正喜/桌面/temp/ClientFrame.exe");
+				p =Runtime.getRuntime().exec("F:/SoftwareDevelopment/Entertainment/ClientFrame.exe");
 		       
 		    	 //获得一个Runtime的实例对象并调用exec方法
 				Thread.sleep(5000);
