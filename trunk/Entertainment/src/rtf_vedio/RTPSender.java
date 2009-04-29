@@ -1,4 +1,4 @@
-package rtf;
+package rtf_vedio;
 
 import java.io.*;
 import java.awt.Dimension;

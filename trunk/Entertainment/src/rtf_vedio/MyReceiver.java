@@ -1,4 +1,4 @@
-package rtf;
+package rtf_vedio;
 import java.net.*;
 import java.awt.*;
 import javax.media.rtp.*;

@@ -1,4 +1,4 @@
-package rtf;
+package rtf_vedio;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

@@ -1,4 +1,4 @@
-package rtf;
+package rtf_vedio;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
