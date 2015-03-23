@@ -1,0 +1,1 @@
+A Java project for CN Experiment which alllws user to choice one entertainment style form Net Chat, Audio-on-demand and vidio-on-demand.
